@@ -1,1 +1,8 @@
-{ "rewrites": [{ "source": "Mycollage(TGR).html", "destination": "/" }] }
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://educational-helper-website.vercel.app/Mycollage(TGR).html"
+    }
+  ]
+}
